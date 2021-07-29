@@ -5,6 +5,8 @@
 ![mosandrcYj](https://user-images.githubusercontent.com/56814290/127066496-d711e2da-fd8f-437e-aeed-b111bbb96dfc.jpeg)
 
 🏮전국 각지에서 우리 가게의 라멘을 맛 볼 수 있게 판매하기 위한 웹 사이트🏮
+## XD로 웹 디자인
+https://xd.adobe.com/view/76e4c684-537c-4dfc-9387-f1a1fe4a8877-23b7/
 
 ## 판매 전략
 
