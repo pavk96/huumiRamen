@@ -1,8 +1,36 @@
-.hidden {
-  display: none;
+/* navigation */
+header {
+  margin: 50px auto;
+  width: 80vw;
+  font-size: 1.5rem;
 }
 nav * {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+/* home */
+/* body가 html처럼 height를 가지지 못하는 이유가 무엇일까? */
+main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer */
+footer {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.sns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sns * {
+  padding: 10px;
 }
