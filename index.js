@@ -2,9 +2,6 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const url = require("url");
-const db = require("./server_mongo/server.js");
-//mongoDB 연동 모듈 사용
-db();
 
 const app = http.createServer(function (request, response) {
   const mimeType = {
