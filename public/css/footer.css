@@ -1,0 +1,15 @@
+footer {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.sns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sns * {
+  padding: 10px;
+}

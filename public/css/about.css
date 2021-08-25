@@ -1,0 +1,15 @@
+.about-story-container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-story-container img {
+  margin: 5%;
+}
+.about-story-container pre {
+  font-size: 1.4rem;
+  margin-bottom: 10%;
+}

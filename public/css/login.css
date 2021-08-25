@@ -1,0 +1,26 @@
+.main-menu-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.main-menu-container li:nth-child(2n) {
+  padding: 5%;
+  flex-direction: row-reverse;
+}
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-menu img {
+  width: 30%;
+}
+.menu-info {
+  margin: 0 5%;
+}
+.menu-info * {
+  padding: 10%;
+  width: 15vw;
+}
+.menu-title {
+  font-size: 1.5rem;
+}

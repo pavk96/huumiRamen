@@ -10,8 +10,9 @@
     />
     <link rel="stylesheet" href="../css/navigation.css" />
     <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/location.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+
     <title>후우미（風味）라멘</title>
   </head>
   <body>
@@ -29,9 +30,17 @@
               />
             </a>
           </li>
-          <li><a href="/menu">Menu</a></li>
+          <li>
+            <a href="/menu">Menu</a>
+          </li>
           <li><a href="/about">Our Story</a></li>
-          <li><a href="/location">Location</a></li>
+          <li>
+            <a
+              href="/location"
+              style="text-decoration: underline; color: #363636"
+              >Location</a
+            >
+          </li>
           <li><a href="/order">Online Order</a></li>
           <li><a href="/login">Sign in</a></li>
         </ul>
@@ -39,16 +48,25 @@
     </header>
     <main>
       <section>
-        <h1 class="hidden">Home</h1>
-        <h2 class="hidden">후우미 메인 페이지</h2>
-        <img
-          src="../images/chef.png"
-          alt="라멘집 사장님이 라멘을 치고 있는 모습"
-        />
-        <img
-          src="../images/donkotsu_ramen.png"
-          alt="돈코츠 라멘의 완성된 모습"
-        />
+        <h1 class="hidden">Location</h1>
+        <h2 class="hidden">후우미로 오시는 길</h2>
+        <div class="location-info-container">
+          <div class="map-address">
+            <div id="map"></div>
+            <p>주소 경상북도 구미시 송정동 479-4 KR</p>
+          </div>
+          <div class="location-info">
+            <p>주차 정보<span></span></p>
+            <p>이용 시간<span></span></p>
+            <p>전화 번호<span></span></p>
+            <p>이용 안내<span></span></p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="out-look-container">
+          <img src="../images/ramen_mise.png" alt="가게 외관" />
+        </div>
       </section>
     </main>
     <footer>
@@ -65,5 +83,10 @@
       <small>Terms &amp; Conditions Priavcy Policy <br /></small>
       <small>Copyright &copy; 2021 Huumi, Ltd. All right.</small>
     </footer>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b1a7e756a3bad19df2ce1a965afea484&libraries=services,clusterer,drawing"
+    ></script>
+    <script src="../js/kakao_map.js"></script>
   </body>
 </html>

@@ -27,11 +27,44 @@ const app = http.createServer(function (request, response) {
       response.end(data);
     });
   } else {
-    response.writeHead(200, "Content-Type", "text/html");
-    fs.readFile("./public/html/index.html", (err, data) => {
-      if (err) throw err;
-      response.end(data);
-    });
+    console.log(publicPath, _url);
+    if (_url === "/") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/index.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    } else if (_url === "/menu") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/menu.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    } else if (_url === "/about") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/about.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    } else if (_url === "/location") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/location.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    } else if (_url === "/order") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/order.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    } else if (_url === "/login") {
+      response.writeHead(200, "Content-Type", "text/html");
+      fs.readFile("./public/html/login.html", (err, data) => {
+        if (err) throw err;
+        response.end(data);
+      });
+    }
   }
 });
 app.listen(3000);

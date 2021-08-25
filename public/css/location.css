@@ -1,0 +1,34 @@
+.location-info-container {
+  width: 70vw;
+  margin: 10% auto 15% auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.location-info {
+  font-size: 1.5rem;
+  margin-left: 10%;
+}
+.location-info * {
+  padding: 20% 0;
+}
+
+.map-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#map {
+  width: 40vw;
+  height: 45vh;
+}
+.out-look-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.out-look-container * {
+  width: 70vw;
+  height: 80vh;
+}

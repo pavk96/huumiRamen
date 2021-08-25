@@ -1,0 +1,9 @@
+/* home */
+/* body가 html처럼 height를 가지지 못하는 이유가 무엇일까? */
+main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
